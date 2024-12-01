@@ -1,16 +1,14 @@
 from pico import app
+from flask import render_template
+
+nome = "desfraça"
+
 
 @app.route("/")
 @app.route("/index")
 def index():
-    return '''
-    <html>
-      <head><title>Index</title></head>
-      <body>
-        <h1>Olá Mundos</h1>
-      </body>
-    </html>
-    '''
+  
+    return render_template("index.html")
 
 @app.route("/teste")
 def teste():

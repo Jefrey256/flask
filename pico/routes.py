@@ -7,10 +7,10 @@ nome = "desfraça"
 @app.route("/")
 @app.route("/index")
 def index():
-  
-    return render_template("index.html")
+    jes = "brenus"
+    return render_template("index.html", pico= jes )
 
 @app.route("/teste")
 def teste():
-    return "Aqui é o teste"
+    return render_template("teste.html")
 

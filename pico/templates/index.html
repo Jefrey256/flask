@@ -3,6 +3,11 @@
 {% block pico %}
     <h1>local index</h1>
     <img src="{{ url_for('static', filename='pico.png') }}" alt="" />
+    <video src="{{ url_for('static', filename='vi.mp4') }}" height="350" width="350" preload="none" autoplay controls>
+    Seu navegador não suporta a reprodução de vídeos.
+</video>
+
+  
     <h1>ola: {{ pico }}</h1>
     <h3>ola jeredy</h3>
 {% endblock %}

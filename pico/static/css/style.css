@@ -1,0 +1,13 @@
+*{
+  font-family: Arial, Sans-Serif;
+}
+
+body{
+  text: #333;
+  background-color: #a5ddec;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}

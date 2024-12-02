@@ -1,10 +1,8 @@
- {% extends "base.html" %}
- 
- {% block pico %}
-    
+{% extends "base.html" %}
+
+{% block pico %}
     <h1>local index</h1>
-    <h1>ola: {{pico}}</h1>
+    <img src="{{ url_for('static', filename='pico.png') }}" alt="" />
+    <h1>ola: {{ pico }}</h1>
     <h3>ola jeredy</h3>
-  
-  {% endblock %}
-  
+{% endblock %}
